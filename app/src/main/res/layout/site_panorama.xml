@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_go_back_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/go_back_main"
+        app:borderWidth="0dp"
+        app:backgroundTint="?attr/colorPrimaryDark"
+        app:rippleColor="#33728dff"
+        app:elevation="8dp"
+        app:pressedTranslationZ="10dp"
+        app:fabSize="normal"
+        />
+
+    <WebView
+        android:id="@+id/webview_site_panorama"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

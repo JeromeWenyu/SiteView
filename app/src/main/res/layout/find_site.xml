@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/add_data"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <EditText
+        android:id="@+id/find_site_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/textview_style"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:hint="请输入站点名称"/>
+
+    <Button
+        android:id="@+id/find_site"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查找"
+        android:textSize="16sp"/>
+
+</LinearLayout>
